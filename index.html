@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/main.js"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div>
+    <h4>Name: Lê Thái Bảo</h4>
+</div>
+<div id="bai1">
+    <h1>Bài 1:</h1>
+    <p>Cho 1 chuỗi str_input. Viết chương trình đảo ngược chuỗi và in ra kết quả</p>
+    <label for="str_input"> Vui lòng nhập chuỗi:</label>
+    <input id="str_input">
+    <button onclick="b1()">Thực hiện</button>
+    <p>Kết quả: <span id="resultb1"></span></p>
+</div>
+
+<div id="bai2">
+    <h1>Bài 2:</h1>
+    <p>Viết 1 chương trình với đầu vào là 1 chuỗi ký tự và in ra chuỗi đó với các ký tự đầu của chữ mỗi chữ được viết hoa. </p>
+    <label for="str_input2"> Vui lòng nhập chuỗi:</label>
+    <input id="str_input2">
+    <button onclick="b2()">Thực hiện</button>
+    <p>Kết quả: <span id="resultb2"></span></p>
+</div>
+
+<div id="bai3">
+    <h1>Bài 3:</h1>
+    <p>Viết một chương trình xóa các phần tử trùng của một mảng và in ra kết quả. </p>
+    <label for="str_input3"> Vui lòng nhập dữ liệu vào chuỗi:</label>
+    <input id="str_input3">
+    <div id="str_array"></div>
+    <button onclick="b3_add()">Thêm vào chuỗi</button>
+    <button onclick="b3()">Thực hiện</button>
+    <p>Kết quả: <span id="resultb3"></span></p>
+</div>
+
+<div id="bai4">
+    <h1>Bài 4:</h1>
+    <p>Tạo dữ liệu của 3 nhân viên mindX (gồm tên, tuổi, mức lương, chức vụ). Xây dựng chương trình quản lý nhân viên với các chức năng (Read, Create, Update, Delete) </p>
+    <div id="staff-table">
+        <button onclick="readstaff()">Click để hiện danh sách</button>
+        <button onclick="createstaff()">Thêm nhân viên mới</button>
+        <br>
+        <br>
+            <table id="table-content">
+            </table>
+    </div>
+</div>
+
+<div id="bai5">
+    <h1>Bài 4:</h1>
+    <p>Viết chương trình cho phép người dùng nhập vào ngày tháng năm. </p>
+    <div>
+        <label for="ngay">Ngày</label>
+        <input id="ngay" type="number">
+        <label for="thang">Tháng</label>
+        <input id="thang" type="number">
+        <label for="nam">Năm</label>
+        <input id="nam" type="number">
+        <button onclick="bai5()">Kiểm tra</button>
+        <p>Kết quả: <span id="resultb5"></span></p>
+        <p>Kết quả 2: <span id="resultb52"></span></p>
+    </div>
+</div>
+
+</body>
+</html>
